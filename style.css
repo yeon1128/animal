@@ -1,0 +1,49 @@
+body {
+    background-image: url(images/bg.png);
+    text-align: center;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+.detail {
+    color: #C2A28E;
+}
+
+.green {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    background-color: #92582C;
+    padding: 20px;
+    box-sizing: content-box;
+    border-radius: 0 0 30px 30px;
+    font-weight: bolder;
+}
+
+.box {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.animal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
