@@ -1,7 +1,11 @@
 body {
     background-image: url(images/bg.png);
-    text-align: center;
+    background-attachment: fixed;
     background-size: cover;
+}
+
+.images {
+    text-align: center;
 }
 
 h1 {
@@ -13,10 +17,8 @@ h1 {
 }
 
 .green {
-    display: block;
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    vertical-align: bottom;
 }
 
 .description {
@@ -36,9 +38,7 @@ h1 {
 }
 
 .animal {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    vertical-align: bottom;
 }
 
 .wrapper {
@@ -47,3 +47,4 @@ h1 {
     align-items: center;
     justify-content: center;
   }
+
